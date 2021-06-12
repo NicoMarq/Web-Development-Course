@@ -26,6 +26,7 @@ a:hover{
 .tittle{
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .paragraph{
@@ -46,7 +47,7 @@ a:hover{
 .content{
     max-width: 960px;
     width: 100%;
-    height: 80vh;
+    height: 55vh;
     background-color: #fff;
                 /*difhorizontal difvertical desenfoque amplitud color*/
     box-shadow: 0 3px 6px black, 0 3px 6px rgb(41, 28, 28);
@@ -64,6 +65,7 @@ a:hover{
 td{
     display:block;
     width: 100%;
+    
 }
 
 td:nth-of-type(1){
@@ -123,6 +125,8 @@ th{
     font-size: 2em;
     border-bottom: solid 2px #ffc400;
     padding-bottom: 1em;
+    
+    
 
 }
 
@@ -147,6 +151,7 @@ th{
     padding: 0.5em;
     border-radius: 4px;
     margin-right: 0.5em;
+    position: sticky;
 }
 
 @media(min-width:900px){
